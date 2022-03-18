@@ -10,7 +10,7 @@
     "build": "tsc && tsc-alias",
     "build:swc": "swc src -d dist --source-maps --copy-files",
     "test": "jest --forceExit --detectOpenHandles",
-    "lint": "prettier --write **/*.{json,yml,md} && eslint --cache --fix \"**/*{ts,tsx}\"",
+    "lint": "prettier --write **/*.{json,yml,md} && eslint --cache --fix \"**/*{js,jsx,ts,tsx}\"",
     "deploy:prod": "npm run build && pm2 start ecosystem.config.js --only prod",
     "deploy:dev": "pm2 start ecosystem.config.js --only dev",
     "prepare": "husky install"
