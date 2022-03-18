@@ -61,7 +61,7 @@
     "eslint-plugin-prettier": "^3.4.0",
     "husky": "^7.0.1",
     "jest": "^27.0.6",
-    "lint-staged": "^11.0.0",
+    "lint-staged": "^12.3.7",
     "node-config": "^0.0.2",
     "node-gyp": "^8.1.0",
     "nodemon": "^2.0.9",
