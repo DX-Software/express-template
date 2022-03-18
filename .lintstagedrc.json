@@ -1,3 +1,4 @@
 {
-  "*.ts": ["npm run lint"]
+  "**/*.json": "prettier --write",
+  "**/*.{ts,tsx}": "eslint --cache --fix"
 }
